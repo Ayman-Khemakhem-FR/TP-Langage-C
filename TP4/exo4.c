@@ -7,9 +7,7 @@ void print_tab (int *t, size_t start, size_t end){
 }
 
 void print_tab2(int *pstart, int *pend){
-        printf("1");
 	while(pstart <= pend){
-		printf("2");
 		printf("%p : %d\n", pstart, *pstart);
 		pstart++;
         }
